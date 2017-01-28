@@ -33,16 +33,24 @@ formulas=(
 
     ### DATABASES ###
     redis
-    mongodb
-    postgresql
-    apache-spark
+    # mongodb
+    # postgresql
+    homebrew/versions/postgresql95 --with-python
+    postgresql95
+    # apache-spark
 
     ### LANGUAGES ###
-    go
+    # go
     ruby
     node
     python
-    python3
+    # python3
+
+    automake
+    libtool
+    pango
+    unp
+    gdal
 
     ### Recent versions of some OS X tools. ###
     homebrew/dupes/grep
