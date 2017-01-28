@@ -16,11 +16,11 @@ brew tap caskroom/versions
 applications_to_install=(
 
     # Essentials
-    # flux
+    flux
     iterm2
     cleanmymac
     the-unarchiver # zips, rar, and more
-    # caffeine # Mac will never sleep
+    caffeine # Mac will never sleep
     spectacle # resize windows
     # superduper # Recoveries
 
@@ -86,6 +86,8 @@ applications_to_install=(
     #clamxav # antivirus
     #easyfind # finder with steroids
     rescuetime
+    disk-inventory-x
+    avast
 )
 
 brew cask install "${applications_to_install[@]}"
@@ -95,7 +97,7 @@ brew cask install "${applications_to_install[@]}"
 ########################################################
 
 applications_to_open=(
-    # flux # Setup day to wake up
+    flux # Setup day to wake up
     dropbox # Start Syncing files
     spotify # Connect account
     "little-snitch"
