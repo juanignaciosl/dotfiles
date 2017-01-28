@@ -7,12 +7,13 @@ echo "*******************************************************"
 echo
 
 npm_packages=(
-  mongoose
-  express-generator
-  coffee-script
-  azure-cli
+  # mongoose
+  # express-generator
+  # coffee-script
+  # azure-cli
   bower
-  gulp
+  grunt-cli
+  # gulp
 )
 
 npm install -g "${npm_packages[@]}"
