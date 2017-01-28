@@ -41,6 +41,7 @@ applications_to_install=(
     # atom
     # macdown
     # sublime-text3
+    intellij-idea
 
     # Dev
     dash
