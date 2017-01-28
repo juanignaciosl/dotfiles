@@ -31,6 +31,9 @@ formulas=(
     diff-so-fancy # used on .gitconfig [pager]
     bash-completion2
 
+    zsh
+    zsh-completions
+
     ### DATABASES ###
     redis
     # mongodb
