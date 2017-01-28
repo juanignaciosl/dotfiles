@@ -60,7 +60,7 @@ fi
 add_config_symbolic_links () {
   rm -rf  "$HOME/.atom" # Remove atom configuration folder before loading the new ones
   # ln -sfv "$DOTFILES_DIR/config/.zshrc" ~
-  ln -sfv "$DOTFILES_DIR/config/.atom" ~
+  # ln -sfv "$DOTFILES_DIR/config/.atom" ~
   ln -sfv "$DOTFILES_DIR/config/.gemrc" ~
   ln -sfv "$DOTFILES_DIR/config/.inputrc" ~
   ln -sfv "$DOTFILES_DIR/config/.bash_profile" ~

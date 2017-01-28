@@ -26,7 +26,7 @@ dockutil --no-restart --add '/Applications/Opera.app'
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type='spacer-tile';}'
 
 dockutil --no-restart --add "/Applications/iTerm.app"
-dockutil --no-restart --add "/Applications/Atom.app"
+# dockutil --no-restart --add "/Applications/Atom.app"
 dockutil --no-restart --add '/Applications/Xcode.app/Contents/Applications/FileMerge.app'
 
 # Add space to System configuration
