@@ -1,3 +1,5 @@
+*This is a fork from https://github.com/ferreiro/dotfiles with my own configuration*
+
 <p align="center">
 	<img src="api/assets/logo_round_v1_large.png" width="550px" />
 </p>
