@@ -16,34 +16,34 @@ Thumbs.db
 ###################
 # Compiled source #
 ###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# *.com
+# *.class
+# *.dll
+# *.exe
+# *.o
+# *.so
 
 ###################
 # Web development #
 ###################
-node_modules
-bower_components
-bin
-*.pyc
+# node_modules
+# bower_components
+# bin
+# *.pyc
 
 ######################
 # Logs and databases #
 ######################
-*.log
+# *.log
 
 ##################
 # Sensitive data #
 ##################
 # Taken from: https://goo.gl/rGBfUW
 
-.private
-private
-license.plist
-.ssh
-id_rsa
-id_rsa.pub
+# .private
+# private
+# license.plist
+# .ssh
+# id_rsa
+# id_rsa.pub
