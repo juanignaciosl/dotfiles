@@ -16,53 +16,52 @@ brew tap caskroom/versions
 applications_to_install=(
 
     # Essentials
-    flux
+    # flux
     iterm2
     cleanmymac
     the-unarchiver # zips, rar, and more
-    caffeine # Mac will never sleep
+    # caffeine # Mac will never sleep
     spectacle # resize windows
-    superduper # Recoveries
+    # superduper # Recoveries
 
     # Browsers
-    opera
+    # opera
     google-chrome
-    google-chrome-canary
-    firefoxdeveloperedition
+    # google-chrome-canary
+    # firefoxdeveloperedition
     
     # Machine Learning
-    octave
+    # octave
 
     # Cloud storage
     dropbox
     google-drive
 
     # Text Editors
-    atom
-    macdown
-    sublime-text3
+    # atom
+    # macdown
+    # sublime-text3
 
     # Dev
     dash
-    mongohub
+    # mongohub
     # zeplin
     # sourcetree # Git IDE
 
     # Messages
-    skype
+    # skype
     slack
     telegram
     # google-hangouts
 
     # Multimedia
     vlc
-    vox
+    # vox
     spotify
-    slate # snapshot
-    imageoptim # image optimizer
+    # slate # snapshot
+    # imageoptim # image optimizer
     licecap # record screen and make gif
     screenflow # Screen Recording
-    licecap # animation screen
     pocketcast # podcasts
 
     ### OTHERS ###
@@ -74,16 +73,18 @@ applications_to_install=(
     # spark # Shortcuts manager
     android-file-transfer
     cheatsheet
-    # virtualbox #  virtualization software
-    # duet # Ipad to screen
-    bitbar
-    gpgtools # GPG Keychain and more GPG stuff
-    sqlitestudio # See SQL squemas
-    kindle
-    send-to-kindle
-    simpless
+    virtualbox #  virtualization software
+    duet # Ipad to screen
+    # bitbar
+    # gpgtools # GPG Keychain and more GPG stuff
+    # sqlitestudio # See SQL squemas
+    # kindle
+    # send-to-kindle
+    calibre
+    # simpless
     #clamxav # antivirus
     #easyfind # finder with steroids
+    rescuetime
 )
 
 brew cask install "${applications_to_install[@]}"
@@ -93,7 +94,7 @@ brew cask install "${applications_to_install[@]}"
 ########################################################
 
 applications_to_open=(
-    flux # Setup day to wake up
+    # flux # Setup day to wake up
     dropbox # Start Syncing files
     spotify # Connect account
     "little-snitch"
