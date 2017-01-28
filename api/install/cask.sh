@@ -28,6 +28,7 @@ applications_to_install=(
     # opera
     google-chrome
     # google-chrome-canary
+    firefox
     # firefoxdeveloperedition
     
     # Machine Learning
