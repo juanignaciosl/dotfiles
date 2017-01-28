@@ -48,6 +48,7 @@ formulas=(
     node
     python
     # python3
+    java
 
     automake
     libtool
