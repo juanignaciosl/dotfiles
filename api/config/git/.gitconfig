@@ -1,16 +1,16 @@
 [user]
-    name = "Jorge Ferreiro"
-    email = jorge@ferreiro.me
+    name = "Juan Ignacio Sánchez Lara"
+    email = juanignaciosl@gmail.com
 
 [github]
-    user = ferreiro
+    user = juanignaciosl
 
 [core]
-    editor = "atom --wait"
+    editor = "vim"
     excludesfile = ~/config/git/.gitignore
-    filemode = false # set true means file mode permission changes are considered changes.
+    filemode = true # set true means file mode permission changes are considered changes.
     trustctime = false
-    ignorecase = true
+    ignorecase = false
 
 [alias]
     st = status
