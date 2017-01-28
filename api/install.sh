@@ -66,6 +66,7 @@ add_config_symbolic_links () {
   ln -sfv "$DOTFILES_DIR/config/.bash_profile" ~
   ln -sfv "$DOTFILES_DIR/config/git/.gitconfig" ~
   ln -sfv "$DOTFILES_DIR/config/git/.gitignore" ~
+  ln -sfv "$DOTFILES_DIR/config/vim/.vimrc" ~
 }
 
 read -p "=> Do you want to add symbolic links? [y/n]: "
