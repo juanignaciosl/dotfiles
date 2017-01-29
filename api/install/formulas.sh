@@ -51,7 +51,6 @@ formulas=(
     node
     python
     # python3
-    java
 
     automake
     libtool
@@ -61,7 +60,7 @@ formulas=(
 
     ### Recent versions of some OS X tools. ###
     homebrew/dupes/grep
-    homebrew/dupes/openssh
+    # homebrew/dupes/openssh
     homebrew/dupes/screen
 
     ### COREUTILS ###
@@ -71,7 +70,7 @@ formulas=(
 
 )
 
-brew link --force openssl
+# brew link --force openssl
 
 brew install "${formulas[@]}"
 brew cleanup # Remove outdated versions from the cellar.

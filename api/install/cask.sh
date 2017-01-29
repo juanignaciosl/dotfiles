@@ -37,6 +37,8 @@ applications_to_install=(
     dropbox
     google-drive
 
+    java
+
     # Text Editors
     # atom
     # macdown
