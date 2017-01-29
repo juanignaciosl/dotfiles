@@ -38,5 +38,8 @@ source ~/.git-flow-completion.zsh
 
 source $ZSH/oh-my-zsh.sh
 
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
 # Customize to your needs...
 export PATH=~/.rvm/gems/ruby-2.1.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:~/Development/activator-1.3.2:$PATH
