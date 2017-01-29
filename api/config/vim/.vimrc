@@ -8,3 +8,4 @@ set ai
 set number
 filetype plugin indent on
 set textwidth=120
+set backspace=2
