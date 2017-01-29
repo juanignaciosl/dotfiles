@@ -10,7 +10,6 @@ echo
 
 # Install Caskroom
 brew tap caskroom/cask
-brew install brew-cask
 brew tap caskroom/versions
 
 applications_to_install=(
@@ -30,7 +29,7 @@ applications_to_install=(
     # google-chrome-canary
     firefox
     # firefoxdeveloperedition
-    
+
     # Machine Learning
     # octave
 
