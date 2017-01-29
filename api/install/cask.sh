@@ -105,6 +105,7 @@ applications_to_open=(
     "little-snitch"
     "Google chrome" # Setup google account
     "google drive" # Start Syncing files
+    RescueTime
 )
 
 for i in "${applications_to_open[@]}"
