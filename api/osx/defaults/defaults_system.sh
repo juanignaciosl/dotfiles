@@ -371,3 +371,9 @@ defaults write com.apple.dock mru-spaces -int 0
 
 # No bouncing icons
 # defaults write com.apple.dock no-bouncing -bool true
+
+###############################################################################
+# Clock                                                                       #
+###############################################################################
+
+defaults write com.apple.menuextra.clock DateFormat "EEE d MMM  H:mm"
