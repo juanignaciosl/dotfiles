@@ -34,6 +34,9 @@ formulas=(
     zsh
     zsh-completions
 
+    tmux
+    tmuxinator-completion
+
     ### DATABASES ###
     redis
     # mongodb
