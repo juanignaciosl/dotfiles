@@ -15,7 +15,7 @@ brew tap caskroom/versions
 applications_to_install=(
 
     # Essentials
-    flux
+    # flux
     iterm2
     cleanmymac
     the-unarchiver # zips, rar, and more
@@ -36,6 +36,8 @@ applications_to_install=(
     # Cloud storage
     dropbox
     google-drive
+
+    java
 
     # Text Editors
     # atom
@@ -97,7 +99,7 @@ brew cask install "${applications_to_install[@]}"
 ########################################################
 
 applications_to_open=(
-    flux # Setup day to wake up
+    # flux # Setup day to wake up
     dropbox # Start Syncing files
     spotify # Connect account
     "little-snitch"
