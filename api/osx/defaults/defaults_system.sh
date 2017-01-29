@@ -130,6 +130,9 @@ sudo nvram SystemAudioVolume=" "
 #
 # # Use all F1, F2, etc. keys as standard function keys (requires restart)
 # defaults write -g com.apple.keyboard.fnState -bool true
+
+defaults write NSGlobalDomain com.apple.trackpad.scaling -int 2
+
 #
 # ###############################################################################
 # # Screen                                                                      #
