@@ -68,6 +68,7 @@ add_config_symbolic_links () {
   ln -sfv "$DOTFILES_DIR/config/git/.gitignore" ~
   ln -sfv "$DOTFILES_DIR/config/vim/.vimrc" ~
   ln -sfv "$DOTFILES_DIR/config/zsh/.zshrc" ~
+  ln -sfv "$DOTFILES_DIR/config/zsh/.git-flow-completion.zsh" ~
 }
 
 read -p "=> Do you want to add symbolic links? [y/n]: "
