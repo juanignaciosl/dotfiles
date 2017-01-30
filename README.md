@@ -1,6 +1,6 @@
 *This is a fork from https://github.com/ferreiro/dotfiles with my own configuration*
 
-(My) steps after cloning this repo:
+(My) steps:
 
 1. Setup git and ssh keys:
 
@@ -10,12 +10,12 @@
     2. `ssh-keygen -t rsa -b 4096 -C "juanignaciosl@gmail.com"`
     3. `pbcopy < ~/.ssh/github_id_rsa.pub`
     4. Add to GitHub
-    
-  2. Setup ssh and keychain:
+    5. `ssh-add -K ~/.ssh/github_id_rsa`
+    6. `ssh-add -A`
 
-    1. `ln -sfv "$PWD/api/config/ssh/config" ~/.ssh/`
-    2. `ssh-add -K ~/.ssh/github_id_rsa`
-    3. `ssh-add -A`
+  2. `git clone git@github.com:juanignaciosl/dotfiles.git`
+    
+  3. `cd dotfiles && ln -sfv "$PWD/api/config/ssh/config" ~/.ssh/`
 
 2. Run dotfiles (see below).
 3. Set iTerm configuration to https://raw.githubusercontent.com/juanignaciosl/dotfiles/master/api/config/iterm2_profile/com.googlecode.iterm2.plist
