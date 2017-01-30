@@ -8,16 +8,16 @@
 # More info: https://jamfnation.jamfsoftware.com/discussion.html?id=16773
 
 dockutil --no-restart --remove all
-dockutil --no-restart --add '/Applications/Skype.app'
+# dockutil --no-restart --add '/Applications/Skype.app'
 dockutil --no-restart --add '/Applications/Slack.app'
 
 
 # Add space to System configuration
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type='spacer-tile';}'
 
-dockutil --no-restart --add '/Applications/Fantastical 2.app'
-dockutil --no-restart --add '/Applications/Airmail 3.app'
-dockutil --no-restart --add '/Applications/Opera.app'
+# dockutil --no-restart --add '/Applications/Fantastical 2.app'
+# dockutil --no-restart --add '/Applications/Airmail 3.app'
+# dockutil --no-restart --add '/Applications/Opera.app'
 # dockutil --no-restart --add '/Applications/Safari.app'
 # dockutil --no-restart --add '/Applications/Google Chrome.app'
 
@@ -27,7 +27,7 @@ defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-ty
 
 dockutil --no-restart --add "/Applications/iTerm.app"
 # dockutil --no-restart --add "/Applications/Atom.app"
-dockutil --no-restart --add '/Applications/Xcode.app/Contents/Applications/FileMerge.app'
+# dockutil --no-restart --add '/Applications/Xcode.app/Contents/Applications/FileMerge.app'
 
 # Add space to System configuration
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type='spacer-tile';}'

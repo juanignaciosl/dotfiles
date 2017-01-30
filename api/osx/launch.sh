@@ -1,7 +1,7 @@
 #!/bin/bash
 ### This script launch all the files inside osx.
 
-COMPUTER_NAME="George"
+COMPUTER_NAME="juanignaciosl"
 
 # Here we go.. ask for the administrator password upfront and run a
 # keep-alive to update existing `sudo` time stamp until script has finished
