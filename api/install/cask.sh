@@ -90,6 +90,7 @@ applications_to_install=(
     rescuetime
     disk-inventory-x
     avast
+    tunnelblick
 )
 
 brew cask install "${applications_to_install[@]}"
@@ -106,6 +107,7 @@ applications_to_open=(
     "Google chrome" # Setup google account
     "google drive" # Start Syncing files
     RescueTime
+    Tunnelblick
 )
 
 for i in "${applications_to_open[@]}"
