@@ -44,6 +44,7 @@ applications_to_install=(
     # macdown
     # sublime-text3
     intellij-idea
+    meld
 
     # Dev
     dash

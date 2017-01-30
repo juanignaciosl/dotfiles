@@ -71,9 +71,14 @@
     autocorrect = 1
 
 [merge]
-    tool = opendiff
+    tool = meld
     # conflictstyle = diff3
     # defaultToUpstream = true
+
+[mergetool "meld"]
+    # First displays partial merge, second displays base ancestor
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+    # cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
 
 # [mergetool "Kaleidoscope"]
 #     cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
