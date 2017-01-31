@@ -1,3 +1,4 @@
+set nocompatible
 set expandtab
 set shiftwidth=2
 set softtabstop=2
@@ -9,3 +10,5 @@ set number
 filetype plugin indent on
 set textwidth=120
 set backspace=2
+set path+=**
+set wildmenu
