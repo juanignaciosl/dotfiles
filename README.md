@@ -19,8 +19,8 @@
 
 2. Run dotfiles (see below).
 3. iTerm
-  3.1 Set iTerm configuration to https://raw.githubusercontent.com/juanignaciosl/dotfiles/master/api/config/iterm2_profile/com.googlecode.iterm2.plist
-  3.2 Install [iTerm Shell integration](https://iterm2.com/documentation-shell-integration.html).
+  1. Set iTerm configuration to https://raw.githubusercontent.com/juanignaciosl/dotfiles/master/api/config/iterm2_profile/com.googlecode.iterm2.plist
+  2. Install [iTerm Shell integration](https://iterm2.com/documentation-shell-integration.html).
 4. Set IntelliJ settings to git@github.com:juanignaciosl/intellij-settings.git
 
 <p align="center">
