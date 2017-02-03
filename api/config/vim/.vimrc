@@ -11,5 +11,5 @@ filetype plugin indent on
 set backspace=2
 set path+=**
 set wildmenu
-# Don't add line breaks
+" Don't add line breaks
 set textwidth=0 wrapmargin=0
