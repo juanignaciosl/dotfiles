@@ -8,7 +8,8 @@ set ruler
 set ai
 set number
 filetype plugin indent on
-set textwidth=120
 set backspace=2
 set path+=**
 set wildmenu
+# Don't add line breaks
+set textwidth=0 wrapmargin=0
