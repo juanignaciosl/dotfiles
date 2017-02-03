@@ -90,3 +90,11 @@ defaults write com.apple.dock mru-spaces -bool false
 
 
 killall Dock
+
+
+###############################################################################
+# Touchbar                                                                    #
+###############################################################################
+
+defaults write ~/Library/Preferences/com.apple.controlstrip MiniCustomized '(com.apple.system.sleep, com.apple.system.media-play-pause, com.apple.system.mute, com.apple.system.screen-lock)'
+killall ControlStrip
