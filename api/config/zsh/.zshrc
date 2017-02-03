@@ -47,3 +47,5 @@ export EDITOR='vim'
 export PATH=~/.rvm/gems/ruby-2.1.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/Cellar/typesafe-activator/1.3.12/bin:$PATH
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+ssh-add -A
