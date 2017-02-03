@@ -6,7 +6,7 @@
 
   1. Set a GitHub key:
 
-    1. `git config --global credential.helper cache`
+    1. `git config --global credential.helper osxkeychain`
     2. `ssh-keygen -t rsa -b 4096 -C "juanignaciosl@gmail.com"`
     3. `pbcopy < ~/.ssh/github_id_rsa.pub`
     4. Add to GitHub
