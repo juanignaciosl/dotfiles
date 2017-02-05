@@ -49,3 +49,5 @@ export PATH=~/.rvm/gems/ruby-2.1.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 ssh-add -A
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
