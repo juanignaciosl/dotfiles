@@ -67,11 +67,9 @@ add_config_symbolic_links () {
   ln -sfv "$DOTFILES_DIR/config/git/.gitconfig" ~
   ln -sfv "$DOTFILES_DIR/config/git/.gitignore" ~
   ln -sfv "$DOTFILES_DIR/config/vim/.vimrc" ~
-  ln -sfv "$DOTFILES_DIR/config/zsh/.zshrc" ~
-  ln -sfv "$DOTFILES_DIR/config/zsh/.git-flow-completion.zsh" ~
 }
 
-read -p "=> Do you want to add symbolic links? [y/n]: "
+read -p "=> Do you want to add configuration symbolic links? [y/n]: "
 if [ "$REPLY" == "y" ]; then
   clear # clear the screen
   add_config_symbolic_links
@@ -98,6 +96,27 @@ if [ "$REPLY" == "y" ]; then
   # done
 
 fi
+
+##################################################################
+### Add Symbolic links to new applications configuration files ###
+##################################################################
+# Symbolic links explained here: https://goo.gl/phYxzR
+
+add_app_config_symbolic_links () {
+  ln -sfv "$DOTFILES_DIR/config/zsh/.zshrc" ~
+  ln -sfv "$DOTFILES_DIR/config/zsh/.git-flow-completion.zsh" ~
+  mkdir -p ~/Library/Preferences/IntelliJIdea2016.3
+  ln -sfv "$DOTFILES_DIR/config/intellij/idea.vmoptions" ~/Library/Preferences/IntelliJIdea2016.3
+}
+
+read -p "=> Do you want to add application configuration symbolic links? [y/n]: "
+if [ "$REPLY" == "y" ]; then
+  clear # clear the screen
+  add_app_config_symbolic_links
+fi
+
+clear # clear the screen
+
 
 ######################
 ### SET UP FOLDERS ###
