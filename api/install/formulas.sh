@@ -25,7 +25,7 @@ formulas=(
     git
     gist # https://github.com/defunkt/gist
     git-lfs
-    git-flow-avh
+    git-flow
     rename
     dockutil # Add/remove dock icons
     dark-mode # Set dark mode
