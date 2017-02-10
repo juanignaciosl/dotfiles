@@ -49,3 +49,8 @@ Thumbs.db
 # .ssh
 # id_rsa
 # id_rsa.pub
+
+####################
+# IDEs and editors #
+####################
+.idea/
