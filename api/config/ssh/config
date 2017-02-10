@@ -2,3 +2,8 @@ Host *
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/github_id_rsa
+
+Host bitbucket.org
+  HostName bitbucket.org
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/bitbucket_id_rsa
