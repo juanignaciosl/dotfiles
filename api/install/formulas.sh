@@ -20,6 +20,7 @@ formulas=(
     nvm # Node Version Manager - Simple bash script to manage multiple active node.js versions
     fasd # Productivity for the command line >> https://github.com/clvv/fasd#install
     tree
+    htop
     wget
     cmake
     git
