@@ -10,6 +10,7 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias fix_homebrew="sudo chown -R $(whoami) /usr/local/var/homebrew && sudo chown -R $(whoami) /usr/local/Homebrew/"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
