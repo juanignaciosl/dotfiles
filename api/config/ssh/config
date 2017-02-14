@@ -1,3 +1,5 @@
+Include carto_config
+
 # More on this:
 # http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/
 # http://unix.stackexchange.com/questions/61655/multiple-similar-entries-in-ssh-config
@@ -5,12 +7,6 @@
 Host *
   UseKeychain yes
   AddKeysToAgent yes
-
-Host *.cartodb.net
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_rsa
-  User ubuntu
 
 Host github.com
   HostName github.com
