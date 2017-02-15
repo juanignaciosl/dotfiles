@@ -33,6 +33,7 @@ formulas=(
     diff-so-fancy # used on .gitconfig [pager]
     bash-completion2
     wireshark
+    ngrep
 
     zsh
     zsh-completions
