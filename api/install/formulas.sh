@@ -32,6 +32,7 @@ formulas=(
     dark-mode # Set dark mode
     diff-so-fancy # used on .gitconfig [pager]
     bash-completion2
+    wireshark
 
     zsh
     zsh-completions
