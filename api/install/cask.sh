@@ -13,6 +13,8 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 applications_to_install=(
+    # Drivers
+    wacom-bamboo-tablet
 
     # Essentials
     # flux
