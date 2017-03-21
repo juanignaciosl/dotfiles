@@ -20,6 +20,11 @@ Host bitbucket.org
   AddKeysToAgent yes
   IdentityFile ~/.ssh/bitbucket_id_rsa
 
+Host idiomcoach_staging
+  User idiomcoach
+  HostName 95.85.2.251
+  IdentityFile ~/.ssh/id_rsa_digitalocean_idiomcoach_staging
+
 Host idiomcoach_production
   User idiomcoach
   HostName 95.85.19.87
