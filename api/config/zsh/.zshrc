@@ -12,6 +12,7 @@ ZSH_THEME="robbyrussell"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias fix_homebrew="sudo chown -R $(whoami) /usr/local/var/homebrew && sudo chown -R $(whoami) /usr/local/Homebrew/"
 alias fix_homebrew="sudo chmod -R g+w /usr/local/var/homebrew && sudo chmod -R g+w /usr/local/Homebrew/ && sudo chmod -R g+w /usr/local/Caskroom/"
+alias fix_spotify="sudo chmod -R g+w /Applications/Spotify.app/"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
