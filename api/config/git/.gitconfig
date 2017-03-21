@@ -72,7 +72,7 @@
 
 [merge]
     tool = meld
-    # conflictstyle = diff3
+    conflictstyle = diff3
     # defaultToUpstream = true
 
 [mergetool "meld"]
