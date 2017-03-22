@@ -67,6 +67,7 @@ add_config_symbolic_links () {
   ln -sfv "$DOTFILES_DIR/config/git/.gitconfig" ~
   ln -sfv "$DOTFILES_DIR/config/git/.gitignore" ~
   ln -sfv "$DOTFILES_DIR/config/vim/.vimrc" ~
+  cp "$DOTFILES_DIR/drivers/dell_u2713h_collection/*" ~/Library/ColorSync/Profiles/
 }
 
 read -p "=> Do you want to add configuration symbolic links? [y/n]: "
