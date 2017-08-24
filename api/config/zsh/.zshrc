@@ -11,8 +11,8 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias fix_homebrew="sudo chown -R $(whoami) /usr/local/var/homebrew && sudo chown -R $(whoami) /usr/local/Homebrew/"
-alias fix_homebrew="sudo chmod -R g+w /usr/local/var/homebrew && sudo chmod -R g+w /usr/local/Homebrew/ && sudo chmod -R g+w /usr/local/Caskroom/"
-alias fix_spotify="sudo chmod -R g+w /Applications/Spotify.app/"
+alias fix_homebrew="sudo chmod -R g+w /usr/local/var/homebrew && sudo chmod -R g+w /usr/local/Homebrew/ && sudo chmod -R g+w /usr/local/Caskroom/ && sudo chmod -R g+w /usr/local/share/zsh/site-functions/"
+alias fix_spotify="sudo chmod -R g+w /Applications/Spotify.app/ && sudo chmod g+x /Applications/Spotify.app/Contents/MacOS/* && sudo chmod g+x /Applications/Spotify.app/Contents/Frameworks/Chromium\ Embedded\ Framework.framework/Chromium\ Embedded\ Framework && sudo chmod -R g+w /usr/local/Caskroom/spotify"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -54,3 +54,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ssh-add -A
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
