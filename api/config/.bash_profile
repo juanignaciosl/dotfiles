@@ -81,3 +81,12 @@ fi
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#mapd-deps cuda
+CUDA_ROOT=$(ls -d /Developer/NVIDIA/CUDA-* | tail -n 1)
+DYLD_LIBRARY_PATH=$CUDA_ROOT/lib:$DYLD_LIBRARY_PATH
+PATH=$CUDA_ROOT/bin:$PATH
+PATH=$HOME/bin:$PATH
+export DYLD_LIBRARY_PATH PATH
+
+# added by Anaconda3 4.3.1 installer
+export PATH="/Users/juanignaciosl/anaconda/bin:$PATH"
