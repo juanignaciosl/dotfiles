@@ -23,6 +23,7 @@ applications_to_install=(
     the-unarchiver # zips, rar, and more
     caffeine # Mac will never sleep
     spectacle # resize windows
+    skyfonts
     # superduper # Recoveries
 
     # Browsers
