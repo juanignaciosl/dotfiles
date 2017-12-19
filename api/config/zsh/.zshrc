@@ -54,4 +54,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ssh-add -A
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
+export PATH="/Users/juanignaciosl/.rvm/gems/ruby-2.2.3/bin:/usr/local/opt/postgresql@9.5/bin:$PATH"
+# rvm --default use 2.2.3
