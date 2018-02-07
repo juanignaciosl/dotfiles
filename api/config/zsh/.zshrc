@@ -14,6 +14,9 @@ ZSH_THEME="robbyrussell"
 alias fix_homebrew="sudo chmod -R g+w /usr/local/var/homebrew && sudo chmod -R g+w /usr/local/Homebrew/ && sudo chmod -R g+w /usr/local/Caskroom/ && sudo chmod -R g+w /usr/local/share/zsh/site-functions/"
 alias fix_spotify="sudo chmod -R g+w /Applications/Spotify.app/ && sudo chmod g+x /Applications/Spotify.app/Contents/MacOS/* && sudo chmod g+x /Applications/Spotify.app/Contents/Frameworks/Chromium\ Embedded\ Framework.framework/Chromium\ Embedded\ Framework && sudo chmod -R g+w /usr/local/Caskroom/spotify"
 
+# Pretty print JSON: 
+alias to_j="ruby -e \"require 'json';puts JSON.pretty_generate(JSON.parse(STDIN.read))\""
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
